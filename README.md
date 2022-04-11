@@ -32,11 +32,11 @@
 <ol>
     <li>Select coin type (BTC, ETH, SOL) on top left corner</li>
     <li>Click "Generate a deposit address"</li>
-    <li>Copy deposite address</li>
+    <li>Copy deposit address</li>
     <li>Click on "here" of "You can fund your account with internal test coins here. In this case, please don't deposit more than 10 BTC to leave some coins for other traders as well." or <a href="https://test.deribit.com/dericoin/BTC/deposit">https://test.deribit.com/dericoin/BTC/deposit</a>.</li>
-    <li>Paste the deposite address.</li>
-    <li>Input the deposite amount.</li>
-    <li>Click "Make deposite".</li>
+    <li>Paste the deposit address.</li>
+    <li>Input the deposit amount.</li>
+    <li>Click "Make deposit".</li>
 </ol>
 4.  
 ```sh
@@ -73,7 +73,7 @@ deribit_testnet_copy_trader(_instrument_names, _trade_amount)
   <tr>
     <td>_instrument_names</td>
     <td>List</td>
-    <td>The instrument name list which to be monitor</td>
+    <td>The instrument name list which to be monitored</td>
   </tr>
   <tr>
     <td>_trade_amount</td>

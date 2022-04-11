@@ -1,4 +1,4 @@
-# The instrument name list which to be monitor
+# The instrument name list which to be monitored
 instrument_names = ["ETH-22APR22-3100-C", "ETH-22APR22-3100-P"]
 
 # The trade amount list for each side of trade

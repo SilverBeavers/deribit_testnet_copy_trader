@@ -17,7 +17,7 @@ testnet_client = WS_Client(testnet_client_id, testnet_client_secret, testnet_cli
 mainnet_client = WS_Client(mainnet_client_id, mainnet_client_secret, mainnet_client_url)
 
 
-# @param _instrument_names The instrument name list which to be monitor
+# @param _instrument_names The instrument name list which to be monitored
 # @param _trade_amount The trade amount list for each side of trade
 def deribit_testnet_copy_trader(_instrument_names, _trade_amount):
     for index, instrument_name in enumerate(_instrument_names):
