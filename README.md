@@ -39,7 +39,7 @@
 4.  Clone to local
 
 ```sh
-git clone https://github.com/SilverBeavers/deribit_testnet_copy_trader
+git clone https://github.com/SilverBeavers/deribit_testnet_copy_trader.git
 ```
 
 5. Add mainnet API key to "credentials.py"
