@@ -25,39 +25,35 @@
 - <a href="https://docs.python.org/3/library/time.html">time</a>
 
 ## Getting Started
-1. Register a mainnet account with Deribit (<a href="https://www.deribit.com/?reg=16509.3813">Affiliated link</a>, <a href="https://www.deribit.com/register">Non-affiliated link</a>).
-2. Register a testnet account with Deribit (<a href="https://test.deribit.com/register">Non-affiliated link</a>).
-3. Fund testing token to testnet account. (Do not send real coin to testnet deposite address)</li>
-<ol list-style-type: lower-roman;>
-    <li>Select coin type (BTC, ETH, SOL) on top left corner</li>
-    <li>Click "Generate a deposit address"</li>
-    <li>Copy deposit address</li>
-    <li>Click on "here" of "You can fund your account with internal test coins here. In this case, please don't deposit more than 10 BTC to leave some coins for other traders as well." or <a href="https://test.deribit.com/dericoin/BTC/deposit">https://test.deribit.com/dericoin/BTC/deposit</a>.</li>
-    <li>Paste the deposit address.</li>
-    <li>Input the deposit amount.</li>
-    <li>Click "Make deposit".</li>
-</ol>
+1. Register a mainnet account with Deribit (<a href="https://www.deribit.com/?reg=16509.3813">Affiliated link</a>, 
+<a href="https://www.deribit.com/register">Non-affiliated link</a>).
+2.Register a testnet account with Deribit (<a href="https://test.deribit.com/register">Non-affiliated link</a>).
+3.Fund testing token to testnet account. (Do not send real coin to testnet deposite address)
+    1. Select coin type (BTC, ETH, SOL) on top left corner
+    2. Click "Generate a deposit address"
+    3. Copy deposit address
+    4. Click on "here" of "You can fund your account with internal test coins here. In this case, please don't deposit more than 10 BTC to leave some coins for other traders as well." or <a href="https://test.deribit.com/dericoin/BTC/deposit">https://test.deribit.com/dericoin/BTC/deposit</a>.
+    5. Paste the deposit address.
+    6. Input the deposit amount.
+    7. Click "Make deposit".
 
-4. Clone to local.
+4.  Clone to local
+
 ```sh
 git clone https://github.com/SilverBeavers/deribit_testnet_copy_trader
 ```
-5. Add mainnet API key to "credentials.py".
-<ol list-style-type: lower-roman;>
-    <li>Click on User Name on top right corner > "My Account" > "API" > "Add New Key"</li>
-    <li>Select "Trade" > "read" > "Create a new API key"</li>
-    <li>Copy "Client ID" and "Client Secret" to "credentials.py"</li>
-</ol>
 
-6. Add testnet API key to "credentials.py".
-<ol list-style-type: lower-roman;>
-    <li>Click on User Name on top right corner > "My Account" > "API" > "Add New Key"</li>
-    <li>Select "Trade" > "read" > "Create a new API key"</li>
-    <li>Copy "Client ID" and "Client Secret" to "credentials.py"</li>
-</ol>
+5. Add mainnet API key to "credentials.py"
+    1. Click on User Name on top right corner > "My Account" > "API" > "Add New Key".
+    2. Select "Trade" > "read" > "Create a new API key".
+    3. Copy "Client ID" and "Client Secret" to "credentials.py".
+6. Add testnet API key to "credentials.py"
+    1. Click on User Name on top right corner > "My Account" > "API" > "Add New Key".
+    2. Select "Trade" > "read" > "Create a new API key".
+    3. Copy "Client ID" and "Client Secret" to "credentials.py".
+7. Input parameters to "user_settings.py"
+8.  Run in python
 
-7. Input parameters to "user_settings.py".
-8.  Run in python.
 ```sh
 python deribit_testnet_copy_trader.py
 ```
