@@ -25,10 +25,9 @@
 - <a href="https://docs.python.org/3/library/time.html">time</a>
 
 ## Getting Started
-1. Register a mainnet account with Deribit (<a href="https://www.deribit.com/?reg=16509.3813">Affiliated link</a>, 
-<a href="https://www.deribit.com/register">Non-affiliated link</a>).
-2.Register a testnet account with Deribit (<a href="https://test.deribit.com/register">Non-affiliated link</a>).
-3.Fund testing token to testnet account. (Do not send real coin to testnet deposite address)
+1. Register a mainnet account with Deribit (<a href="https://www.deribit.com/?reg=16509.3813">Affiliated link</a>, <a href="https://www.deribit.com/register">Non-affiliated link</a>).
+2. Register a testnet account with Deribit (<a href="https://test.deribit.com/register">Non-affiliated link</a>).
+3. Fund testing token to testnet account. (Do not send real coin to testnet deposite address)
     1. Select coin type (BTC, ETH, SOL) on top left corner
     2. Click "Generate a deposit address"
     3. Copy deposit address
