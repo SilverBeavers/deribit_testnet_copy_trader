@@ -25,11 +25,10 @@
 - <a href="https://docs.python.org/3/library/time.html">time</a>
 
 ## Getting Started
-1. Register a mainnet account with Deribit (<a href="https://www.deribit.com/?reg=16509.3813">Affiliated link</a>, 
-<a href="https://www.deribit.com/register">Non-affiliated link</a>).
-2.Register a testnet account with Deribit (<a href="https://test.deribit.com/register">Non-affiliated link</a>).
-3.Fund testing token to testnet account. (Do not send real coin to testnet deposite address)</li>
-<ol>
+1. Register a mainnet account with Deribit (<a href="https://www.deribit.com/?reg=16509.3813">Affiliated link</a>, <a href="https://www.deribit.com/register">Non-affiliated link</a>).
+2. Register a testnet account with Deribit (<a href="https://test.deribit.com/register">Non-affiliated link</a>).
+3. Fund testing token to testnet account. (Do not send real coin to testnet deposite address)</li>
+<ol list-style-type: lower-roman;>
     <li>Select coin type (BTC, ETH, SOL) on top left corner</li>
     <li>Click "Generate a deposit address"</li>
     <li>Copy deposit address</li>
@@ -38,24 +37,27 @@
     <li>Input the deposit amount.</li>
     <li>Click "Make deposit".</li>
 </ol>
-4.  
+
+4. Clone to local.
 ```sh
-git clone https://github.com/SilverBeavers/deribit-testnet-copy-trader
+git clone https://github.com/SilverBeavers/deribit_testnet_copy_trader
 ```
-5. Add mainnet API key to "credentials.py"
-<ol>
+5. Add mainnet API key to "credentials.py".
+<ol list-style-type: lower-roman;>
     <li>Click on User Name on top right corner > "My Account" > "API" > "Add New Key"</li>
     <li>Select "Trade" > "read" > "Create a new API key"</li>
     <li>Copy "Client ID" and "Client Secret" to "credentials.py"</li>
 </ol>
-6. Add testnet API key to "credentials.py"
-<ol>
+
+6. Add testnet API key to "credentials.py".
+<ol list-style-type: lower-roman;>
     <li>Click on User Name on top right corner > "My Account" > "API" > "Add New Key"</li>
     <li>Select "Trade" > "read" > "Create a new API key"</li>
     <li>Copy "Client ID" and "Client Secret" to "credentials.py"</li>
 </ol>
-7. Input parameters to "user_settings.py"
-8.  
+
+7. Input parameters to "user_settings.py".
+8.  Run in python.
 ```sh
 python deribit_testnet_copy_trader.py
 ```
@@ -118,7 +120,7 @@ deribit_limit_trade(deribit_client, instrument_name, is_buy, trade_amount, price
 ## Contact
 
 - GitHub:  <a href="https://github.com/SilverBeavers">https://github.com/SilverBeavers</a>
-- Project Link: <a href="https://github.com/SilverBeavers/deribit-testnet-copy-trader">https://github.com/SilverBeavers/deribit-testnet-copy-trader</a>
+- Project Link: <a href="https://github.com/SilverBeavers/deribit_testnet_copy_trader">https://github.com/SilverBeavers/deribit_testnet_copy_trader</a>
 - Twitter:  <a href="https://twitter.com/Silver_Beavers">https://twitter.com/Silver_Beavers</a>
 
 
